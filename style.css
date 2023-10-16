@@ -1,0 +1,94 @@
+.fullwidth-bg-area {
+    background-image: url(img-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.fullwidth-bg-area {
+    margin: 70px 0;
+}
+
+.margin-minus {
+    margin: -70px 0;
+    padding: 120px 70px;
+    font-size: 20px;
+    line-height: 1.9;
+}
+
+.dark-bg {
+    background-color: #2b2f40;
+    color: #fff;
+}
+
+.bordered-btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #cca876;
+    padding: 10px 40px; 
+}
+
+.margin-minus .bordered-btn {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.box-content h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.author-name {
+    font-size: 23px;
+    margin-top: 30px;
+    position: relative;
+    padding-left: 45px;
+}
+
+.author-name span {
+    font-size: 70%;
+    font-weight: 100;
+    overflow: 0.3;
+}
+
+.author-name::before {
+    content: "";
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    top:50%;
+    margin-top: -2px;
+}
+
+.box-content {
+    position: relative;
+    padding: 30px 0 30px 20px;
+}
+
+.box-content::before {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+.box-content::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
